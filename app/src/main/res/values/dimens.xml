@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_container">8dp</dimen>
+    <dimen name="width_poster">100dp</dimen>
+    <dimen name="height_poster">150dp</dimen>
+    <dimen name="textSize_title">18sp</dimen>
+    <dimen name="height_backdrop">200dp</dimen>
+</resources>

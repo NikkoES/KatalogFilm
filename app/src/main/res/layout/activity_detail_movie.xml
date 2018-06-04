@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_container"
+    android:orientation="vertical"
+    tools:context=".activity.DetailMovieActivity">
+
+    <ImageView
+        android:id="@+id/image_backdrop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_backdrop"
+        android:src="@drawable/no_image_icon" />
+
+    <TextView
+        android:id="@+id/txt_nama_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Title here"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize_title" />
+
+    <TextView
+        android:id="@+id/txt_tanggal_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        android:text="Release data here" />
+
+    <TextView
+        android:id="@+id/txt_deskripsi_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorAccent"
+        android:text="Overview here" />
+
+</LinearLayout>
